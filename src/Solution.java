@@ -45,7 +45,7 @@ public class Solution {
         return (inBlock==true)? list1:list2;
     }
 	public static void main(String[] args) {
-		String[] in={"a/*comment", "line", "more_comment*b"};
+		String[] in={"a/*comment", "line", "more_comment*/b"};
 		Solution sol=new Solution();
 		List<String> res=sol.removeComments(in);
 		for (String str:res){
